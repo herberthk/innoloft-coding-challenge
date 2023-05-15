@@ -47,7 +47,10 @@ const UserInfo: FC<Prop> = ({ company, user }) => {
           {company?.address.city.name} {company?.address.country.name}
         </div>
       </div>
-      <MapComponent company={company} />
+      <MapComponent
+        lat={parseFloat(company?.address.latitude!) || 0}
+        lng={parseFloat(company?.address.longitude!) || 0}
+      />
     </div>
   );
 };
