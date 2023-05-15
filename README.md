@@ -26,3 +26,7 @@ pnpm dev
  - RTK query
  - eslint
  - Prettier
+
+
+ ### Loom video
+ https://www.loom.com/share/3a25b661b39944919ed9398604338213
